@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (isNaN(inputTemp)) {
             resultDiv.innerText = "Please enter a valid number.";
         } else if (inputType !== "F" && inputType !== "C") {
-            resultDiv.innerText = "Please enter F or C.";
+            resultDiv.innerText = "Please enter °F or °C.";
         } else {
             let convertedTemp, convertedType;
 
