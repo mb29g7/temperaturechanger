@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
             convertedTemp = convertedTemp.toFixed(2);
-            resultDiv.innerText = `${inputTemp} °${inputType} is ${convertedTemp} ${convertedType}`;
+            resultDiv.innerText = `${inputTemp} °${inputType} is ${convertedTemp} °${convertedType}`;
         }
     });
 });
